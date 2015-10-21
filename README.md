@@ -2,6 +2,11 @@
 
 _A fork of Cactus_
 
+- Larger text
+- Wider blog body
+- Different color scheme
+- Code highlightning (through highlight.js)
+
 ---
 
 A minimalistic theme for [Ghost](https://ghost.org/) inspired by [Cactus for Mac](http://cactusformac.com/).
