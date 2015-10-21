@@ -1,15 +1,15 @@
 {
-  "name": "Cactus",
+  "name": "Saguaro",
   "version": "1.0.0",
-  "description": "A minimalistic theme for Ghost inspired by Cactus for Mac.",
+  "description": "A minimalistic theme for Ghost based on the Cactus theme by Hayden Bleasel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haydenbleasel/ghost-themes.git"
+    "url": "https://github.com/lohmander/saguaro.git"
   },
-  "author": "Hayden Bleasel <haydenbleasel@gmail.com>",
+  "author": "Hannes Lohmander <hannes@lohmander.me>",
   "bugs": {
-    "url": "https://github.com/haydenbleasel/ghost-themes/issues"
+    "url": "https://github.com/lohmander/saguaro/issues"
   },
-  "homepage": "https://github.com/haydenbleasel/ghost-themes",
+  "homepage": "https://github.com/lohmander/saguaro",
   "private": true
 }

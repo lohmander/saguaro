@@ -43,10 +43,9 @@
         {{/if}}
 
         {{! Scripts and Stylesheets }}
-        <link rel="stylesheet" href="{{asset 'css/normalize.css'}}" />
-        <link rel="stylesheet" href="{{asset 'css/basics.css'}}" />
-        <link rel="stylesheet" href="{{asset 'css/gist.css'}}" />
-        <link rel="stylesheet" href="{{asset 'css/cactus.css'}}" />
+        <link rel="stylesheet" href="{{asset 'css/main.css'}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/atelier-cave.light.min.css">
+
         <script src="{{asset 'js/html5shiv-printshiv.js'}}"></script>
         <script src="{{asset 'js/respond.js'}}"></script>
 
@@ -58,7 +57,7 @@
     </head>
     <body class="{{body_class}}">
 
-        <section id="wrapper">
+        <main class="blog">
             <header id="header">
                 <a id="title" class="index" href="{{@blog.url}}">{{@blog.title}}</a>
             </header>
@@ -67,17 +66,19 @@
 
             <footer id="footer">
                 <p class="small">
-                    <a href="https://github.com/haydenbleasel/phantom">Theme: Cactus by Hayden Bleasel</a>
+                    <a href="https://github.com/haydenbleasel/phantom">Theme: Saguaro by Hannes Lohmander <i>(Based on Cactus by Hayden Bleasel)</i></a>
                 </p>
             </footer>
 
-        </section>
+        </main>
 
         {{ghost_foot}}
 
         {{! Deferred scripts }}
         <script src="{{asset 'js/fastclick.js'}}"></script>
         <script src="{{asset 'js/cactus.js'}}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
 
     </body>
 </html>

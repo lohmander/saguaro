@@ -1,0 +1,33 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: $color-text;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a,
+#title,
+#post-list a:hover,
+#post-list li:hover .dates,
+#title:hover {
+    text-decoration: none;
+    color: $color-primary;
+}
+
+p a {
+    color: $color-primary;
+}
+
+
+.description {
+    float:right;
+    font:italic 14px/1.4em Georgia,serif;
+    color:#aaa;
+}
+
+.small {
+    font-size: 14px;
+}

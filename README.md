@@ -1,4 +1,8 @@
-# Cactus
+# Saguaro
+
+_A fork of Cactus_
+
+---
 
 A minimalistic theme for [Ghost](https://ghost.org/) inspired by [Cactus for Mac](http://cactusformac.com/).
 
